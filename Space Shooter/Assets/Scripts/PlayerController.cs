@@ -296,7 +296,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "Boss")
         {
-            gameCamera.transform.parent = null;
+            //gameCamera.transform.parent = null;
             //Destroy(this.gameObject);
         }
         

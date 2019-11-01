@@ -40,7 +40,7 @@ public class EnemySpawner : MonoBehaviour
 
             Instantiate (enemies[0], spawnPosition + transform.TransformPoint(0,0,0), gameObject.transform.rotation);
 
-            if (playerReference.enemiesKilled >= 3 && !bossHasSpawned)
+            if (playerReference.enemiesKilled >= 30 && !bossHasSpawned)
             {
                 //Debug.Log("Boss Spawned");
                 Instantiate (enemies[1], spawnPosition + transform.TransformPoint(0,0,0), gameObject.transform.rotation);
